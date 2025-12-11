@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+#totalAmount {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #0056b3;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.table td {
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#totalAmount {
+    font-size: 1.5em;
+}
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;  /* Increase base font size */
+}
+
+/* Header */
+header h1 {
+    font-size: 3rem;  /* Larger font size for the title */
+}
+
+header p {
+    font-size: 1.25rem;  /* Slightly larger subtitle */
+}
+
+/* Form input fields */
+.form-control {
+    font-size: 1.2rem;  /* Larger input fields */
+    padding: 15px;
+}
+
+/* Button */
+button {
+    font-size: 1.2rem;  /* Larger button text */
+    padding: 15px 20px;  /* Bigger padding for better clickability */
+}
+
+/* Table */
+.table th, .table td {
+    font-size: 1.25rem;  /* Larger text in table headers and cells */
+    padding: 15px;  /* Bigger cell padding */
+}
+
+/* Total Amount */
+#totalAmount {
+    font-size: 2rem;  /* Larger total amount font */
+}
+
+/* Apply responsiveness for mobile devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .form-control, button {
+        font-size: 1rem;
+    }
+
+    .table th, .table td {
+        font-size: 1.1rem;
+    }
+
+    #totalAmount {
+        font-size: 1.5rem;
+    }
+}
