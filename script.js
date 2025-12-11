@@ -84,8 +84,15 @@ function updateTotal() {
     document.getElementById('vatAmount').textContent = vatAmount.toFixed(2);  // Display VAT amount
 }
 
-// Generate and download receipt as PDF
+// Generate and download receipt as PDF with celebration animation
 document.getElementById('downloadSlip').addEventListener('click', function () {
+    // Trigger confetti animation for celebration
+    confetti({
+        particleCount: 200,
+        spread: 70,
+        origin: { x: 0.5, y: 0.5 }
+    });
+
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
